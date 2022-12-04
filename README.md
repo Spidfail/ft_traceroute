@@ -56,11 +56,12 @@ If not:
 
 ## Lexicon
 
-IP  : Internet Protocol
-ICMP: Internet Control Message Protocol
-TCP : Transmission Control Protocol, also referred as TCP over IP (`TCP/IP`) or _"connection oriented"_ protocol.
-UDP : User Datagramm Protocol, also referenced as _"connectionless oriented"_ protocol.
-TTL : Time To Live
-RTT : Round Trip Time
+IP  : Internet Protocol    
+ICMP: Internet Control Message Protocol    
+TCP : Transmission Control Protocol, also referred as TCP over IP (`TCP/IP`) or _"connection oriented"_ protocol.    
+UDP : User Datagramm Protocol, also referenced as _"connectionless oriented"_ protocol.    
+DNS : Domain Name Server
+TTL : Time To Live    
+RTT : Round Trip Time    
 
 
