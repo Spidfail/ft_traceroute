@@ -35,24 +35,24 @@ Traceroute wants to avoid host packet processing. For that part it means :
 
 ### Printing :
 If a response is provided:
-    - TTL
-    - Gateway's address
-        - Print all responding addresses even if the response come from a different one.
-        - Additionnal informations (_Optionnal_)
-    - RTT
-    - Details' annotations (_When needed_). List:
-        - **!H** : _host unreachable_
-        - **!N** : _network unreachable_
-        - **!P** : _port unreachable_
-        - **!S** : _source route failed_
-        - **!F** : _fragmentation needed_
-        - **!X** : _communication administratively prohibited_
-        - **!V** : _host precedence violation_
-        - **!C** : _precedence cutoff in effect_
-        - **!`<num>`** : _ICMP unreachable code `<num>`_
+- TTL
+- Gateway's address
+    - Print all responding addresses even if the response come from a different one.
+    - Additionnal informations (_Optionnal_)
+- RTT
+- Details' annotations (_When needed_). List:
+    - **!H** : _host unreachable_
+    - **!N** : _network unreachable_
+    - **!P** : _port unreachable_
+    - **!S** : _source route failed_
+    - **!F** : _fragmentation needed_
+    - **!X** : _communication administratively prohibited_
+    - **!V** : _host precedence violation_
+    - **!C** : _precedence cutoff in effect_
+    - **!`<num>`** : _ICMP unreachable code `<num>`_
 
 If not:
-    - `*` only.
+- `*` only.
 
 ## Lexicon
 
