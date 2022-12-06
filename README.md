@@ -11,7 +11,7 @@ Aims to reproduce `traceroute`'s Linux binary (on his most part). This is for ed
 
 - Only one mandatory agrument : **hostname**/**IP address** of the host.
 
-- Launch probes over IP network by using TTL.
+- Launch probes over IP network by using TTL count.
 
 - Begin with probe of 1 to 30 "hops" (by default).
 
@@ -20,6 +20,8 @@ Aims to reproduce `traceroute`'s Linux binary (on his most part). This is for ed
 - Listening on ICMP responds.
 
 ### Concerning protocol
+
+Packets are sent with **UDP** over IP by default. The user can add options to send _TCP_ or _ICMP_ (`ECHO_REQUEST`) instead. 
 
 Traceroute wants to avoid host packet processing. For that part it means :
 - UDP : set destionation port as `unlikely`.
